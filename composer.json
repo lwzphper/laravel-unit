@@ -1,0 +1,24 @@
+{
+    "name": "lwz/laravelUnitTest",
+    "description": "a laravel  unit test demo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lwz",
+            "email": "1149243551@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lwz\\LaraverUnitTest\\": "src"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Lwz\\LaraverUnitTest\\UnitTestServiceProvide"
+            ]
+        }
+    }
+}
